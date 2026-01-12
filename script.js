@@ -38,18 +38,29 @@ const i18n = {
         title: "Leadership Team",
         oula: {
           name: "Oula Abd Almoty",
-          title: "Head of Software Development",
-          bio: "Software Engineering Manager and Full-Stack Web Developer with over 5 years of experience in building scalable, multilingual, and healthcare-focused digital platforms. Leads the software development department and oversees system architecture, code quality, and technical strategy."
+          title: "Founder & Lead Software Engineer",
+          bio: "Founder & Lead Software Engineer. Responsible for the complete software design of the platform, systems development, technical infrastructure management, and ensuring the quality and security of digital solutions. Oversees the transformation of health and administrative requirements into integrated, scalable technical systems, and leads the technical vision from concept to execution. Software Engineering Manager and Full-Stack Web Developer with over 5 years of experience in building scalable, multilingual, and healthcare-focused digital platforms. Leads the software development department and oversees system architecture, code quality, and technical strategy."
         },
         mohammad: {
           name: "Mohammad Rajab Bjeerami",
-          title: "Head of General Administration & Project Management",
-          bio: "University graduate with more than 8 years of experience in general administration and project management. Specialized in operational planning, organizational coordination, and managing large-scale projects with a strong focus on efficiency, governance, and delivery."
+          title: "Health Systems & Operations Manager",
+          bio: "Health Systems & Operations Manager. A health sciences graduate with experience in team management and coordination among all parties. Acts as the main link between the founder, technical team, and external relations team. Fully manages the project, organizes workflow, monitors execution, and ensures all efforts are aligned with a unified vision. University graduate with more than 8 years of experience in general administration and project management. Specialized in operational planning, organizational coordination, and managing large-scale projects with a strong focus on efficiency, governance, and delivery."
         },
         alaa: {
           name: "Alaa Sharifa",
-          title: "Head of Public Relations & Sales",
-          bio: "Telecommunications Engineering graduate with over 8 years of experience in public relations and sales management. Expert in client communication, strategic partnerships, brand representation, and managing customer relationships across technical and business environments."
+          title: "Communications & Public Relations Manager",
+          bio: "Communications & Public Relations Manager. A communications engineer with professional experience in communication and relationship building. Manages communication channels, coordinates with entities and individuals, and represents the project in direct and official communications, ensuring a professional and clear image for the project. Telecommunications Engineering graduate with over 8 years of experience in public relations and sales management. Expert in client communication, strategic partnerships, brand representation, and managing customer relationships across technical and business environments."
+        }
+        ,
+        mohammadkhadra: {
+          name: "Mohammad Khadra",
+          title: "Regional Healthcare & Government Relations Representative",
+          bio: "Pharmacist serving as the project's representative in Syria and Jordan, leading the presentation of the health platform to official bodies and relevant institutions. Contributes to building bridges with governments and the health sector, and professionally represents the project in meetings and official presentations."
+        },
+        ahmad: {
+          name: "Ahmad",
+          title: "Government Liaison – Syria",
+          bio: "Works on coordinating and communicating with government entities in Syria, participates in presenting the project, and builds official channels for cooperation, helping to connect the project with the institutional landscape inside Syria."
         }
       },
     locations: {
@@ -135,18 +146,29 @@ const i18n = {
         title: "فريق القيادة",
         oula: {
           name: "علا عبد المعطي",
-          title: "رئيس قسم تطوير البرمجيات",
-          bio: "مدير هندسة البرمجيات ومطور ويب متكامل بخبرة تزيد عن 5 سنوات في بناء منصات رقمية قابلة للتوسع ومتعددة اللغات وتركز على الصحة. يقود قسم تطوير البرمجيات ويشرف على هندسة الأنظمة وجودة الكود والاستراتيجية التقنية."
+          title: "المؤسِّسة & قائدة التطوير البرمجي",
+          bio: "المؤسِّسة وقائدة التطوير البرمجي. مسؤولة عن التصميم البرمجي الكامل للمنصة، تطوير الأنظمة، إدارة البنية التقنية، وضمان جودة وأمان الحلول الرقمية. تشرف على تحويل المتطلبات الصحية والإدارية إلى أنظمة تقنية متكاملة وقابلة للتوسع، وتقود الرؤية التقنية للمشروع من الفكرة حتى التنفيذ. مدير هندسة البرمجيات ومطور ويب متكامل بخبرة تزيد عن 5 سنوات في بناء منصات رقمية قابلة للتوسع ومتعددة اللغات وتركز على الصحة. تقود قسم تطوير البرمجيات وتشرف على هندسة الأنظمة وجودة الكود والاستراتيجية التقنية."
         },
         mohammad: {
           name: "محمد رجب بجيرامي",
-          title: "رئيس الإدارة العامة وإدارة المشاريع",
-          bio: "خريج جامعي بخبرة تزيد عن 8 سنوات في الإدارة العامة وإدارة المشاريع. متخصص في التخطيط التشغيلي والتنسيق التنظيمي وإدارة المشاريع الكبيرة مع تركيز قوي على الكفاءة والحوكمة والتنفيذ."
+          title: "مدير أنظمة الصحة والعمليات",
+          bio: "مدير أنظمة الصحة والعمليات. خريج علوم صحية يتمتع بخبرة في إدارة الفرق وتنسيق العمل بين جميع الأطراف. يُعد حلقة الوصل الأساسية بين المؤسِّسة، الفريق التقني، وفريق العلاقات والتواصل الخارجي. يتولى إدارة المشروع بشكل كامل، تنظيم سير العمل، متابعة التنفيذ، وضمان انسجام جميع الجهود ضمن رؤية واحدة. خريج جامعي بخبرة تزيد عن 8 سنوات في الإدارة العامة وإدارة المشاريع. متخصص في التخطيط التشغيلي والتنسيق التنظيمي وإدارة المشاريع الكبيرة مع تركيز قوي على الكفاءة والحوكمة والتنفيذ."
         },
         alaa: {
-          name: "علاء شريفة",
-          title: "رئيس العلاقات العامة والمبيعات",
-          bio: "خريج هندسة اتصالات بخبرة تزيد عن 8 سنوات في العلاقات العامة وإدارة المبيعات. خبير في التواصل مع العملاء والشراكات الاستراتيجية وتمثيل العلامة التجارية وإدارة علاقات العملاء في البيئات التقنية والتجارية."
+          name: "آلاء شريفة",
+          title: "مديرة الاتصالات والعلاقات العامة",
+          bio: "مديرة الاتصالات والعلاقات العامة. مهندسة اتصالات تتمتع بخبرة في التواصل المهني وبناء العلاقات. تتولى إدارة قنوات الاتصال، التنسيق مع الجهات والأفراد، وتمثيل المشروع في التواصل المباشر والرسمي، بما يضمن صورة احترافية وواضحة للمشروع. خريجة هندسة اتصالات بخبرة تزيد عن 8 سنوات في العلاقات العامة وإدارة المبيعات. خبيرة في التواصل مع العملاء والشراكات الاستراتيجية وتمثيل العلامة التجارية وإدارة علاقات العملاء في البيئات التقنية والتجارية."
+        }
+        ,
+        mohammadkhadra: {
+          name: "محمد خضرة",
+          title: "ممثل العلاقات الصحية والحكومية – إقليمي",
+          bio: "صيدلاني يعمل كواجهة للمشروع في سوريا والأردن، ويقود عرض المنصة الصحية أمام الجهات الرسمية والمؤسسات المعنية. يساهم في بناء جسور التواصل مع الحكومات والقطاع الصحي، ويمثل المشروع بشكل مهني في الاجتماعات والعروض الرسمية."
+        },
+        ahmad: {
+          name: "أحمد",
+          title: "منسّق العلاقات الحكومية – سوريا",
+          bio: "يعمل على التنسيق والتواصل مع الجهات الحكومية في سوريا، ويشارك في عرض المشروع وبناء قنوات رسمية للتعاون، بما يسهم في ربط المشروع بالواقع المؤسسي داخل سوريا."
         }
       },
     locations: {
@@ -232,18 +254,29 @@ const i18n = {
         title: "Liderlik Ekibi",
         oula: {
           name: "Oula Abd Almoty",
-          title: "Yazılım Geliştirme Müdürü",
-          bio: "Yazılım mühendisliği yöneticisi ve tam kapsamlı web geliştirici. 5+ yıl boyunca ölçeklenebilir, çok dilli ve sağlık odaklı dijital platformlar geliştirdi. Yazılım geliştirme departmanını yönetir, sistem mimarisi, kod kalitesi ve teknik stratejiden sorumludur."
+          title: "Kurucu & Yazılım Geliştirme Lideri",
+          bio: "Kurucu & Yazılım Geliştirme Lideri. Platformun tüm yazılım tasarımından, sistemlerin geliştirilmesinden, teknik altyapının yönetiminden ve dijital çözümlerin kalite ve güvenliğinden sorumludur. Sağlık ve idari gereksinimleri entegre, ölçeklenebilir teknik sistemlere dönüştürür ve projenin teknik vizyonunu fikirden uygulamaya kadar yönetir. Yazılım mühendisliği yöneticisi ve tam kapsamlı web geliştirici. 5+ yıl boyunca ölçeklenebilir, çok dilli ve sağlık odaklı dijital platformlar geliştirdi. Yazılım geliştirme departmanını yönetir, sistem mimarisi, kod kalitesi ve teknik stratejiden sorumludur."
         },
         mohammad: {
           name: "Mohammad Rajab Bjeerami",
-          title: "Genel İdare ve Proje Yönetimi Müdürü",
-          bio: "Üniversite mezunu, 8+ yıl genel idare ve proje yönetimi deneyimi. Operasyonel planlama, organizasyonel koordinasyon ve büyük ölçekli projelerin yönetiminde uzman. Verimlilik, yönetişim ve teslimata odaklanır."
+          title: "Sağlık Sistemleri & Operasyonlar Müdürü",
+          bio: "Sağlık Sistemleri & Operasyonlar Müdürü. Sağlık bilimleri mezunu, ekip yönetimi ve tüm taraflar arasında koordinasyon konusunda deneyimli. Kurucu, teknik ekip ve dış ilişkiler ekibi arasında ana bağlantı noktasıdır. Projeyi tamamen yönetir, iş akışını organize eder, uygulamayı takip eder ve tüm çabaların tek bir vizyon altında uyumlu olmasını sağlar. Üniversite mezunu, 8+ yıl genel idare ve proje yönetimi deneyimi. Operasyonel planlama, organizasyonel koordinasyon ve büyük ölçekli projelerin yönetiminde uzman. Verimlilik, yönetişim ve teslimata odaklanır."
         },
         alaa: {
           name: "Alaa Sharifa",
-          title: "Halkla İlişkiler ve Satış Müdürü",
-          bio: "Telekomünikasyon mühendisliği mezunu, 8+ yıl halkla ilişkiler ve satış yönetimi deneyimi. Müşteri iletişimi, stratejik ortaklıklar, marka temsili ve teknik/iş ortamlarında müşteri ilişkileri yönetiminde uzmandır."
+          title: "İletişim & Halkla İlişkiler Müdürü",
+          bio: "İletişim & Halkla İlişkiler Müdürü. İletişim mühendisi, profesyonel iletişim ve ilişki kurma deneyimine sahip. İletişim kanallarını yönetir, kurum ve kişilerle koordinasyon sağlar ve projeyi doğrudan ve resmi iletişimde temsil eder; böylece projenin profesyonel ve net bir imajı sağlanır. Telekomünikasyon mühendisliği mezunu, 8+ yıl halkla ilişkiler ve satış yönetimi deneyimi. Müşteri iletişimi, stratejik ortaklıklar, marka temsili ve teknik/iş ortamlarında müşteri ilişkileri yönetiminde uzmandır."
+        }
+        ,
+        mohammadkhadra: {
+          name: "Mohammad Khadra",
+          title: "Bölgesel Sağlık ve Hükümet İlişkileri Temsilcisi",
+          bio: "Suriye ve Ürdün'de projenin temsilcisi olarak görev yapan eczacı. Sağlık platformunun resmi kurumlar ve ilgili kuruluşlar nezdinde sunumunu yönetir. Hükümetler ve sağlık sektörüyle köprüler kurmaya katkıda bulunur ve projeyi toplantı ve resmi sunumlarda profesyonelce temsil eder."
+        },
+        ahmad: {
+          name: "Ahmad",
+          title: "Hükümet İlişkileri Koordinatörü – Suriye",
+          bio: "Suriye'deki resmi kurumlarla koordinasyon ve iletişimden sorumlu, projeyi sunar ve iş birliği için resmi kanallar oluşturur. Projenin Suriye'deki kurumsal yapıyla bağlantısını güçlendirir."
         }
       },
     locations: {
