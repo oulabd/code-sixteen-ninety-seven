@@ -25,7 +25,7 @@
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
-    margin-left: 0.7rem;
+    margin-left: 0.2rem;
     margin-top: 0.2rem;
     transition: background var(--transition), color var(--transition), border-color var(--transition);
     z-index: 1002;
@@ -40,7 +40,7 @@
   .mobile-menu-dropdown {
     display: none;
     position: absolute;
-    left: 1rem;
+    left: 0.2rem;
     top: 56px;
     background: var(--color-glass-solid);
     border-radius: var(--radius);
