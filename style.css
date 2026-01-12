@@ -78,8 +78,8 @@
   }
   .header-content {
     grid-template-columns: auto 1fr auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
   }
   .header-left {
     min-width: unset;
