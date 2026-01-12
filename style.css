@@ -1,3 +1,58 @@
+/* Mobile header utility bar (department, service, language) */
+.mobile-header-bar {
+  display: none;
+}
+@media (max-width: 600px) {
+  .mobile-header-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    width: 100%;
+  }
+  .mobile-dept-btn, .mobile-service-btn {
+    background: var(--color-glass);
+    border: 1.5px solid var(--color-silver2);
+    color: var(--color-silver2);
+    border-radius: var(--radius-sm);
+    padding: 0.4rem 0.9rem;
+    font-size: 0.98rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background var(--transition), color var(--transition), border-color var(--transition);
+  }
+  .mobile-dept-btn:hover, .mobile-service-btn:hover {
+    background: var(--color-pink2);
+    color: var(--color-dark);
+    border-color: var(--color-pink2);
+  }
+  .mobile-lang-switcher {
+    display: flex;
+    gap: 0.2rem;
+    background: rgba(191,195,201,0.08);
+    border-radius: var(--radius-sm);
+    padding: 0.1rem 0.3rem;
+  }
+  .mobile-lang-switcher button {
+    background: none;
+    border: none;
+    color: var(--color-silver);
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background var(--transition), color var(--transition);
+  }
+  .mobile-lang-switcher button.active,
+  .mobile-lang-switcher button:hover {
+    color: var(--color-pink);
+    background: rgba(247,185,201,0.10);
+  }
+}
 @media (max-width: 600px) {
   .header-content {
     display: flex;
