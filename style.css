@@ -1,3 +1,63 @@
+/* Mobile Sections Button & Dropdown */
+.mobile-sections-btn {
+  display: none;
+}
+.mobile-sections-dropdown {
+  display: none;
+}
+@media (max-width: 600px) {
+  .mobile-sections-btn {
+    display: inline-block;
+    background: var(--color-glass);
+    border: 1.5px solid var(--color-silver2);
+    color: var(--color-silver2);
+    border-radius: var(--radius-sm);
+    padding: 0.35rem 0.9rem;
+    font-size: 0.98rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 0.7rem;
+    margin-top: 0.2rem;
+    transition: background var(--transition), color var(--transition), border-color var(--transition);
+    z-index: 1002;
+  }
+  .mobile-sections-btn.active,
+  .mobile-sections-btn:focus {
+    background: var(--color-pink2);
+    color: var(--color-dark);
+    border-color: var(--color-pink2);
+  }
+  .mobile-sections-dropdown {
+    display: none;
+    position: absolute;
+    left: 1rem;
+    top: 56px;
+    background: var(--color-glass-solid);
+    border-radius: var(--radius);
+    box-shadow: 0 4px 24px 0 var(--color-pink2);
+    padding: 0.7rem 0.5rem;
+    min-width: 140px;
+    z-index: 1001;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .mobile-sections-dropdown.open {
+    display: flex;
+  }
+  .mobile-section-link {
+    color: var(--color-silver2);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: var(--radius-sm);
+    transition: background var(--transition), color var(--transition);
+    display: block;
+  }
+  .mobile-section-link:hover {
+    background: var(--color-pink2);
+    color: var(--color-dark);
+  }
+}
 @media (max-width: 600px) {
   .logo-img {
     width: 120px;
