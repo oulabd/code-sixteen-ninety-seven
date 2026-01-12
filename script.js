@@ -332,16 +332,6 @@ document.getElementById("lang-switcher").addEventListener("click", e => {
   }
 });
 
-// --- Hamburger Menu (Mobile) ---
-const nav = document.getElementById("nav");
-const hamburger = document.getElementById("hamburger");
-hamburger.addEventListener("click", () => {
-  nav.classList.toggle("open");
-});
-document.querySelectorAll(".nav-link").forEach(link => {
-  link.addEventListener("click", () => nav.classList.remove("open"));
-});
-
 // --- Sticky Header Glass Effect ---
 window.addEventListener("scroll", () => {
   const header = document.getElementById("header");
