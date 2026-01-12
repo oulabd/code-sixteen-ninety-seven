@@ -12,6 +12,13 @@
     0 12px 0 0 var(--color-silver2);
 }
 @media (max-width: 600px) {
+      .lang-switcher {
+        flex-wrap: wrap;
+        min-width: 120px;
+      }
+      .header-right {
+        min-width: 120px;
+      }
     header {
     width: 100%;
     left: 0;
