@@ -635,8 +635,8 @@ nav ul li {
   cursor: pointer;
   transition: box-shadow var(--transition), background var(--transition), color var(--transition);
   outline: none;
-  margin-left: 18px;
-  margin-right: 18px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 .btn-glow:hover,
 .btn-glow:focus {
