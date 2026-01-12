@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>code sixteen ninty seven</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    emailjs.init("wGq-vx7_kUkvS8H9g");
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header" class="glass">
+    
+    <!-- LEFT -->
+    <div class="header-left">
+      <div class="logo" id="logo">
+        <img src="/media/logo__1_-removebg-preview.png" alt="Company Logo" class="logo-img" />
+      </div>
+    </div>
+
+    <!-- CENTER -->
+    <nav id="nav" class="header-center">
+      <ul>
+        <li><a href="#hero" data-i18n="nav.home" class="nav-link active"></a></li>
+        <li><a href="#about" data-i18n="nav.about" class="nav-link"></a></li>
+        <li><a href="#projects" data-i18n="nav.projects" class="nav-link"></a></li>
+        <li><a href="#leadership" data-i18n="leadership.title" class="nav-link"></a></li>
+        <li><a href="#contact" data-i18n="nav.contact" class="nav-link"></a></li>
+      </ul>
+    </nav>
+
+    <!-- RIGHT -->
+    <div class="header-actions header-right">
+      <div class="lang-switcher" id="lang-switcher">
+        <button data-lang="ar">AR</button>
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="tr">TR</button>
+      </div>
+      <button class="btn-glow" id="requestServiceBtn" data-i18n="header.requestService"></button>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+        </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-bg">
+      <canvas id="particles"></canvas>
+      <div class="hero-logo">
+        <img src="media/body_logo-removebg-preview.png" alt="Hero Logo" class="hero-logo-img" />
+      </div>
+      <div class="light-blob"></div>
+      
+    </div>
+    <div class="hero-center">
+    
+      <h1 class="hero-tagline" data-i18n="hero.tagline"></h1>
+    </div>
+    <div class="scroll-down" id="scrollDown">
+      <span class="arrow"></span>
+      <span class="scroll-text" data-i18n="hero.scroll"></span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section reveal">
+    <div class="container">
+      <h2 class="section-title" data-i18n="about.title"></h2>
+      <div class="about-card glass">
+        <p data-i18n="about.desc"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section reveal">
+    <div class="container">
+      <h2 class="section-title" data-i18n="projects.title"></h2>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all" data-i18n="projects.filters.all"></button>
+        <button class="filter-btn" data-filter="healthcare" data-i18n="projects.filters.healthcare"></button>
+        <button class="filter-btn" data-filter="education" data-i18n="projects.filters.education"></button>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Project cards injected by JS -->
+      </div>
+    </div>
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+      <div class="modal-content glass">
+        <button class="modal-close" id="closeProjectModal">&times;</button>
+        <div id="modalProjectContent"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Team Section -->
+  <section id="leadership" class="section reveal">
+    <div class="container">
+      <h2 class="section-title" data-i18n="leadership.title"></h2>
+      <div class="leadership-grid">
+        <!-- Card 1: Mohammad Ragab -->
+        <div class="leadership-card glass">
+          <div class="leadership-photo">
+            <img src="media/RACAP.jpeg" alt="Mohammad Ragab" />
+          </div>
+          <div class="leadership-info">
+            <h3 class="leadership-name" data-i18n="leadership.mohammad.name"></h3>
+            <div class="leadership-title" data-i18n="leadership.mohammad.title"></div>
+            <p class="leadership-bio" data-i18n="leadership.mohammad.bio"></p>
+            <div class="leadership-icons">
+              <span class="icon-placeholder" title="LinkedIn"></span>
+              <span class="icon-placeholder" title="Email"></span>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2: Oula -->
+        <div class="leadership-card glass">
+          <div class="leadership-photo">
+            <img src="media/OULA.jpeg" alt="Oula Abd Almoty" />
+          </div>
+          <div class="leadership-info">
+            <h3 class="leadership-name" data-i18n="leadership.oula.name"></h3>
+            <div class="leadership-title" data-i18n="leadership.oula.title"></div>
+            <p class="leadership-bio" data-i18n="leadership.oula.bio"></p>
+            <div class="leadership-icons">
+              <span class="icon-placeholder" title="LinkedIn"></span>
+              <span class="icon-placeholder" title="Email"></span>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3: Alaa -->
+        <div class="leadership-card glass">
+          <div class="leadership-photo">
+            <img src="media/ALAA.jpg" alt="Alaa S" />
+            
+          </div>
+          <div class="leadership-info">
+            <h3 class="leadership-name" data-i18n="leadership.alaa.name"></h3>
+            <div class="leadership-title" data-i18n="leadership.alaa.title"></div>
+            <p class="leadership-bio" data-i18n="leadership.alaa.bio"></p>
+            <div class="leadership-icons">
+              <span class="icon-placeholder" title="LinkedIn"></span>
+              <span class="icon-placeholder" title="Email"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Section -->
+  <section id="locations" class="section reveal">
+    <div class="container">
+      <h2 class="section-title" data-i18n="locations.title"></h2>
+      <div class="locations-cards">
+        <div class="location-card glass">
+          <span class="map-pin"></span>
+          <span data-i18n="locations.zonguldak"></span>
+        </div>
+        <div class="location-card glass">
+          <span class="map-pin"></span>
+          <span data-i18n="locations.istanbul"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section reveal">
+    <div class="container">
+      <h2 class="section-title" data-i18n="contact.title"></h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon phone"></span>
+            <a href="https://wa.me/905364605693" target="_blank" rel="noopener" class="contact-whatsapp">+90 536 460 56 93</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon phone"></span>
+            <a href="https://wa.me/905364621156" target="_blank" rel="noopener" class="contact-whatsapp">+90 536 462 1156</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon phone"></span>
+            <a href="https://wa.me/963934549680" target="_blank" rel="noopener" class="contact-whatsapp">+963 934 549 680</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon email"></span>
+            <a href="https://mail.google.com/mail/?view=cm&to=code16.97.info@gmail.com" target="_blank" rel="noopener" class="contact-email-link">code16.97.info@gmail.com</a>
+          </div>
+        </div>
+        <form id="contactForm" class="glass contact-form" novalidate>
+          <div class="contact-form-row">
+            <div class="form-group">
+              <input type="text" id="contactName" name="name" required placeholder="" data-i18n-placeholder="contact.form.name"/>
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="contactService" name="service" required placeholder="" data-i18n-placeholder="contact.form.service"/>
+              <span class="form-error"></span>
+            </div>
+          </div>
+          <div class="contact-form-row">
+            <div class="form-group">
+              <input type="text" id="contactNote" name="note" placeholder="" data-i18n-placeholder="contact.form.note"/>
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="contactEmail" name="email" required placeholder="" data-i18n-placeholder="contact.form.email"/>
+              <span class="form-error"></span>
+            </div>
+          </div>
+          <div class="form-group contact-form-message">
+            <textarea id="contactMessage" name="message" required placeholder="" data-i18n-placeholder="contact.form.message"></textarea>
+            <span class="form-error"></span>
+          </div>
+          <button type="submit" class="btn-glow" data-i18n="contact.form.send"></button>
+        </form>
+      </div>
+    </div>
+    <div class="toast" id="contactToast"></div>
+  </section>
+
+  <!-- Request Service Modal -->
+  <div class="modal" id="serviceModal">
+    <div class="modal-content glass">
+      <button class="modal-close" id="closeServiceModal">&times;</button>
+      <form id="serviceForm">
+           <div class="modal-step" data-step="1">
+             <label for="serviceName">Name</label>
+             <input type="text" id="serviceName" name="name" required placeholder="" data-i18n-placeholder="service.form.name" />
+             <span class="form-error"></span>
+           </div>
+           <div class="modal-step" data-step="2" style="display:none;">
+             <label for="serviceTypeText">Service you want</label>
+             <input type="text" id="serviceTypeText" name="service" required placeholder="" data-i18n-placeholder="service.form.service" />
+             <small>For example: web, mobile application, etc.</small>
+             <span class="form-error"></span>
+           </div>
+           <div class="modal-step" data-step="3" style="display:none;">
+             <label for="serviceNote">Note</label>
+             <input type="text" id="serviceNote" name="note" placeholder="" data-i18n-placeholder="service.form.note" />
+             <span class="form-error"></span>
+           </div>
+           <div class="modal-step" data-step="4" style="display:none;">
+             <label for="serviceEmail">Email</label>
+             <input type="email" id="serviceEmail" name="email" required placeholder="" data-i18n-placeholder="service.form.email" />
+             <span class="form-error"></span>
+           </div>
+           <div class="modal-step" data-step="5" style="display:none;">
+             <label for="serviceMessage">Describe your website</label>
+             <textarea id="serviceMessage" name="message" required placeholder="" data-i18n-placeholder="service.form.message"></textarea>
+             <span class="form-error"></span>
+           </div>
+           <div class="modal-step" data-step="6" style="display:none;">
+             <div class="service-summary" id="serviceSummary"></div>
+           </div>
+        <div class="modal-step" data-step="4" style="display:none;">
+          <div class="service-summary" id="serviceSummary"></div>
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn-glow" id="prevStep" data-i18n="service.prev"></button>
+          <button type="button" class="btn-glow" id="nextStep" data-i18n="service.next"></button>
+          <button type="submit" class="btn-glow" id="submitService" data-i18n="service.submit" style="display:none;"></button>
+        </div>
+      </form>
+      <div class="toast" id="serviceToast"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <span id="footerText"></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
