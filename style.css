@@ -114,18 +114,25 @@ header {
 @media (max-width: 600px) {
   .logo-img {
     width: 120px;
-    margin: 0;
-    }
+    margin-left: 0 !important;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+  }
   header .btn-glow {
     display: none;
   }
   .header-content {
     grid-template-columns: auto 1fr auto;
-    padding-left: 0.3rem;
+    padding-left: 0;
     padding-right: 0.3rem;
   }
   .header-left {
     min-width: unset;
+    margin-left: 0;
+    padding-left: 0;
   }
   .header-right {
     min-width: unset;
