@@ -541,13 +541,13 @@ contactForm.addEventListener("submit", function(e) {
     message: document.getElementById("contactMessage").value
   };
 
-  // 1️⃣ Send to admin (update template ID to 4u91ms2)
+  // 1️⃣ Send to admin (Contact Us template)
   emailjs.send(
     "service_r5fj15v",
-    "template_4u91ms2",
+    "template_145yz56",
     params
   ).then(() => {
-    // 2️⃣ Auto-reply to customer (keep using auto-reply template)
+    // 2️⃣ Auto-reply to customer (Auto-Reply template)
     return emailjs.send(
       "service_r5fj15v",
       "template_n3ogb2t",
