@@ -679,37 +679,3 @@ document.getElementById("lang-switcher").addEventListener("click", updateAll);
 
 // --- On load, set footer year and initial texts ---
 document.addEventListener("DOMContentLoaded", updateAll);
-
-// --- Mobile header bar functionality ---
-// Department button: scroll to leadership section
-const mobileDeptBtn = document.getElementById("mobileDeptBtn");
-if (mobileDeptBtn) {
-  mobileDeptBtn.addEventListener("click", function() {
-    const leadership = document.getElementById("leadership");
-    if (leadership) leadership.scrollIntoView({ behavior: "smooth" });
-  });
-}
-// Service button: open service modal
-const mobileServiceBtn = document.getElementById("mobileServiceBtn");
-if (mobileServiceBtn) {
-  mobileServiceBtn.addEventListener("click", function() {
-    const serviceModal = document.getElementById("serviceModal");
-    if (serviceModal) serviceModal.classList.add("active");
-    currentStep = 0;
-    showStep(currentStep);
-    serviceForm.reset();
-    serviceForm.querySelectorAll(".form-error").forEach(el => el.textContent = "");
-  });
-}
-// Mobile language switcher: sync with main switcher
-const mobileLangSwitcher = document.getElementById("mobile-lang-switcher");
-if (mobileLangSwitcher) {
-  mobileLangSwitcher.addEventListener("click", function(e) {
-    if (e.target.tagName === "BUTTON") {
-      currentLang = e.target.getAttribute("data-lang");
-      document.querySelectorAll(".lang-switcher button").forEach(btn => btn.classList.remove("active"));
-      e.target.classList.add("active");
-      updateTexts();
-    }
-  });
-}
