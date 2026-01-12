@@ -669,3 +669,28 @@ document.getElementById("lang-switcher").addEventListener("click", updateAll);
 
 // --- On load, set footer year and initial texts ---
 document.addEventListener("DOMContentLoaded", updateAll);
+
+// --- Mobile Hamburger Menu Dropdown ---
+const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+const mobileMenuDropdown = document.getElementById("mobileMenuDropdown");
+if (mobileMenuBtn && mobileMenuDropdown) {
+  mobileMenuBtn.addEventListener("click", function(e) {
+    e.stopPropagation();
+    mobileMenuDropdown.classList.toggle("open");
+    mobileMenuBtn.classList.toggle("active");
+  });
+  // Hide dropdown when clicking outside
+  document.addEventListener("click", function(e) {
+    if (!mobileMenuDropdown.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+      mobileMenuDropdown.classList.remove("open");
+      mobileMenuBtn.classList.remove("active");
+    }
+  });
+  // Hide dropdown after clicking a link
+  mobileMenuDropdown.querySelectorAll(".mobile-menu-link").forEach(link => {
+    link.addEventListener("click", function() {
+      mobileMenuDropdown.classList.remove("open");
+      mobileMenuBtn.classList.remove("active");
+    });
+  });
+}
