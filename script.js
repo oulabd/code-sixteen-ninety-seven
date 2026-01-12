@@ -42,7 +42,7 @@ const i18n = {
           bio: "Founder & Lead Software Engineer. Responsible for the complete software design of the platform, systems development, technical infrastructure management, and ensuring the quality and security of digital solutions. Oversees the transformation of health and administrative requirements into integrated, scalable technical systems, and leads the technical vision from concept to execution. Software Engineering Manager and Full-Stack Web Developer with over 5 years of experience in building scalable, multilingual, and healthcare-focused digital platforms. Leads the software development department and oversees system architecture, code quality, and technical strategy."
         },
         mohammad: {
-          name: "Mohammad Rajab Bjeerami",
+          name: "Mohammad Rajab Bojerami",
           title: "Health Systems & Operations Manager",
           bio: "Health Systems & Operations Manager. A health sciences graduate with experience in team management and coordination among all parties. Acts as the main link between the founder, technical team, and external relations team. Fully manages the project, organizes workflow, monitors execution, and ensures all efforts are aligned with a unified vision. University graduate with more than 8 years of experience in general administration and project management. Specialized in operational planning, organizational coordination, and managing large-scale projects with a strong focus on efficiency, governance, and delivery."
         },
@@ -58,7 +58,7 @@ const i18n = {
           bio: "Pharmacist serving as the project's representative in Syria and Jordan, leading the presentation of the health platform to official bodies and relevant institutions. Contributes to building bridges with governments and the health sector, and professionally represents the project in meetings and official presentations."
         },
         ahmad: {
-          name: "Ahmad",
+          name: "Ahmad Bojerami",
           title: "Government Liaison – Syria",
           bio: "Works on coordinating and communicating with government entities in Syria, participates in presenting the project, and builds official channels for cooperation, helping to connect the project with the institutional landscape inside Syria."
         }
@@ -150,7 +150,7 @@ const i18n = {
           bio: "المؤسِّسة وقائدة التطوير البرمجي. مسؤولة عن التصميم البرمجي الكامل للمنصة، تطوير الأنظمة، إدارة البنية التقنية، وضمان جودة وأمان الحلول الرقمية. تشرف على تحويل المتطلبات الصحية والإدارية إلى أنظمة تقنية متكاملة وقابلة للتوسع، وتقود الرؤية التقنية للمشروع من الفكرة حتى التنفيذ. مدير هندسة البرمجيات ومطور ويب متكامل بخبرة تزيد عن 5 سنوات في بناء منصات رقمية قابلة للتوسع ومتعددة اللغات وتركز على الصحة. تقود قسم تطوير البرمجيات وتشرف على هندسة الأنظمة وجودة الكود والاستراتيجية التقنية."
         },
         mohammad: {
-          name: "محمد رجب بجيرامي",
+          name: "محمد رجب بجيرمي",
           title: "مدير أنظمة الصحة والعمليات",
           bio: "مدير أنظمة الصحة والعمليات. خريج علوم صحية يتمتع بخبرة في إدارة الفرق وتنسيق العمل بين جميع الأطراف. يُعد حلقة الوصل الأساسية بين المؤسِّسة، الفريق التقني، وفريق العلاقات والتواصل الخارجي. يتولى إدارة المشروع بشكل كامل، تنظيم سير العمل، متابعة التنفيذ، وضمان انسجام جميع الجهود ضمن رؤية واحدة. خريج جامعي بخبرة تزيد عن 8 سنوات في الإدارة العامة وإدارة المشاريع. متخصص في التخطيط التشغيلي والتنسيق التنظيمي وإدارة المشاريع الكبيرة مع تركيز قوي على الكفاءة والحوكمة والتنفيذ."
         },
@@ -166,7 +166,7 @@ const i18n = {
           bio: "صيدلاني يعمل كواجهة للمشروع في سوريا والأردن، ويقود عرض المنصة الصحية أمام الجهات الرسمية والمؤسسات المعنية. يساهم في بناء جسور التواصل مع الحكومات والقطاع الصحي، ويمثل المشروع بشكل مهني في الاجتماعات والعروض الرسمية."
         },
         ahmad: {
-          name: "أحمد",
+          name: " أحمد بجيرمي",
           title: "منسّق العلاقات الحكومية – سوريا",
           bio: "يعمل على التنسيق والتواصل مع الجهات الحكومية في سوريا، ويشارك في عرض المشروع وبناء قنوات رسمية للتعاون، بما يسهم في ربط المشروع بالواقع المؤسسي داخل سوريا."
         }
@@ -258,7 +258,7 @@ const i18n = {
           bio: "Kurucu & Yazılım Geliştirme Lideri. Platformun tüm yazılım tasarımından, sistemlerin geliştirilmesinden, teknik altyapının yönetiminden ve dijital çözümlerin kalite ve güvenliğinden sorumludur. Sağlık ve idari gereksinimleri entegre, ölçeklenebilir teknik sistemlere dönüştürür ve projenin teknik vizyonunu fikirden uygulamaya kadar yönetir. Yazılım mühendisliği yöneticisi ve tam kapsamlı web geliştirici. 5+ yıl boyunca ölçeklenebilir, çok dilli ve sağlık odaklı dijital platformlar geliştirdi. Yazılım geliştirme departmanını yönetir, sistem mimarisi, kod kalitesi ve teknik stratejiden sorumludur."
         },
         mohammad: {
-          name: "Mohammad Rajab Bjeerami",
+          name: "Mohammad Rajab Bojerami",
           title: "Sağlık Sistemleri & Operasyonlar Müdürü",
           bio: "Sağlık Sistemleri & Operasyonlar Müdürü. Sağlık bilimleri mezunu, ekip yönetimi ve tüm taraflar arasında koordinasyon konusunda deneyimli. Kurucu, teknik ekip ve dış ilişkiler ekibi arasında ana bağlantı noktasıdır. Projeyi tamamen yönetir, iş akışını organize eder, uygulamayı takip eder ve tüm çabaların tek bir vizyon altında uyumlu olmasını sağlar. Üniversite mezunu, 8+ yıl genel idare ve proje yönetimi deneyimi. Operasyonel planlama, organizasyonel koordinasyon ve büyük ölçekli projelerin yönetiminde uzman. Verimlilik, yönetişim ve teslimata odaklanır."
         },
@@ -274,7 +274,7 @@ const i18n = {
           bio: "Suriye ve Ürdün'de projenin temsilcisi olarak görev yapan eczacı. Sağlık platformunun resmi kurumlar ve ilgili kuruluşlar nezdinde sunumunu yönetir. Hükümetler ve sağlık sektörüyle köprüler kurmaya katkıda bulunur ve projeyi toplantı ve resmi sunumlarda profesyonelce temsil eder."
         },
         ahmad: {
-          name: "Ahmad",
+          name: "Ahmad Bojerami",
           title: "Hükümet İlişkileri Koordinatörü – Suriye",
           bio: "Suriye'deki resmi kurumlarla koordinasyon ve iletişimden sorumlu, projeyi sunar ve iş birliği için resmi kanallar oluşturur. Projenin Suriye'deki kurumsal yapıyla bağlantısını güçlendirir."
         }
