@@ -425,12 +425,12 @@ header {
 }
 @media (max-width: 600px) {
   .hero-logo-img {
-    width: 280px;
-    height: 280px;
-    max-width: 200vw;
-    max-height: 100vh;
-    min-width: 180px;
-    min-height: 180px;
+    width: 320px;
+    height: 320px;
+    max-width: 220vw;
+    max-height: 120vh;
+    min-width: 200px;
+    min-height: 200px;
   }
 }
 :root {
@@ -710,12 +710,12 @@ nav ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 8vh;
+  margin-top: 0;
 }
 .hero-logo {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   margin: 0;
   z-index: 2;
   overflow: hidden;
@@ -732,7 +732,7 @@ nav ul li {
 .scroll-down {
   position: absolute;
   left: 50%;
-  bottom: 5.5rem;
+  bottom: 10rem;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
