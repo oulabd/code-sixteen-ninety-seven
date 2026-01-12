@@ -669,28 +669,3 @@ document.getElementById("lang-switcher").addEventListener("click", updateAll);
 
 // --- On load, set footer year and initial texts ---
 document.addEventListener("DOMContentLoaded", updateAll);
-
-// --- Mobile Sections Button Dropdown ---
-const mobileSectionsBtn = document.getElementById("mobileSectionsBtn");
-const mobileSectionsDropdown = document.getElementById("mobileSectionsDropdown");
-if (mobileSectionsBtn && mobileSectionsDropdown) {
-  mobileSectionsBtn.addEventListener("click", function(e) {
-    e.stopPropagation();
-    mobileSectionsDropdown.classList.toggle("open");
-    mobileSectionsBtn.classList.toggle("active");
-  });
-  // Hide dropdown when clicking outside
-  document.addEventListener("click", function(e) {
-    if (!mobileSectionsDropdown.contains(e.target) && !mobileSectionsBtn.contains(e.target)) {
-      mobileSectionsDropdown.classList.remove("open");
-      mobileSectionsBtn.classList.remove("active");
-    }
-  });
-  // Hide dropdown after clicking a link
-  mobileSectionsDropdown.querySelectorAll(".mobile-section-link").forEach(link => {
-    link.addEventListener("click", function() {
-      mobileSectionsDropdown.classList.remove("open");
-      mobileSectionsBtn.classList.remove("active");
-    });
-  });
-}
