@@ -120,12 +120,12 @@
 }
 @media (max-width: 600px) {
   .hero-logo-img {
-    width: 240px;
-    height: 240px;
-    max-width: 180vw;
-    max-height: 80vh;
-    min-width: 160px;
-    min-height: 160px;
+    width: 280px;
+    height: 280px;
+    max-width: 200vw;
+    max-height: 100vh;
+    min-width: 180px;
+    min-height: 180px;
   }
 }
 :root {
